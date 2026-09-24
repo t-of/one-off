@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e1830">
+  <meta name="description" content="1 台の端末を回して遊ぶ、3〜10 人の会話ゲーム。ひとりだけ少し違うお題を配られた人を（本人も気づいていない）、話のかみ合わなさから見つけ出す。">
+  <title>ONE OFF — ひとりだけ、お題が少しちがう</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ONE OFF">
+  <meta property="og:title" content="ONE OFF — ひとりだけ、お題が少しちがう">
+  <meta property="og:description" content="1 台の端末を回して遊ぶ、3〜10 人の会話ゲーム。ひとりだけ少し違うお題を配られた人を（本人も気づいていない）、話のかみ合わなさから見つけ出す。">
+  <meta property="og:url" content="https://t-of.github.io/one-off/">
+  <meta property="og:image" content="https://t-of.github.io/one-off/icons/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- apple-mobile-web-app-status-bar-style は付けない（black-translucent だと iOS 26 で上部が隠れる） -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="ONE OFF">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./webapp-kit/webapp-kit.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="root">
+    <div class="top" id="top"></div>
+    <main id="app"></main>
+  </div>
+
+  <script src="./webapp-kit/webapp-kit.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

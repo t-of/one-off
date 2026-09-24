@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "ONE OFF",
+  "short_name": "ONE OFF",
+  "description": "1 台の端末を回して遊ぶ、3〜10 人の会話ゲーム。ひとりだけ少し違うお題を配られた人を（本人も気づいていない）、話のかみ合わなさから見つけ出す。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e1830",
+  "theme_color": "#0e1830",
+  "lang": "ja",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
