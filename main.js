@@ -207,7 +207,7 @@ V.setup = () => {
   </section>
   ${board}
   <div class="dock"><button class="btn primary big" data-act="start">ゲームを始める</button></div>
-  <p class="credit"><a href="/">T.OF...</a> のアプリ</p>`;
+  <p class="credit"><a href="/">T.OF...</a> のアプリ・<a href="https://t-of.github.io/contact/">問い合わせ</a></p>`;
 };
 
 V.deal = () => {
